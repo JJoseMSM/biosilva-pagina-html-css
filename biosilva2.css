@@ -1,0 +1,140 @@
+
+.Logo_BioPou{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+    margin-top: 35px;
+    width: 500px;
+    height: 200px;
+}
+
+.Logo_BioPou img{
+    justify-content: center;
+    display: flex;
+    width: 500px;
+    height: 200px;
+}
+
+
+.Contenedor-Poucherete{
+  display: grid;
+  -ms-grid-row-align: center;
+  grid-template-rows: 400px 400px 400px 400px;
+  grid-template-columns: 400px 400px 400px;
+  margin: 30px 30px 30px 30px;
+  border-radius: 50px;
+  justify-content: center;
+  justify-items: center;
+}
+
+.Contenedor-Poucherete::after{ 
+    content: '';
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/biosilva/photo-1532611322744-369123d95bd3.jpg) no-repeat center;
+    background-size: cover;
+    z-index: -1;
+    filter: blur(10px);
+}
+
+
+.Poucherete {
+    display: grid;
+    width: 300px;
+    height: 330px;
+    text-align: center justify;
+    justify-items: center;
+    justify-self: center;
+
+}
+
+.PouText {
+  
+  font-size: 18px;
+  color: black;
+  text-align: center;
+  font-family: 'Nunito Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  justify-content: center;
+  width: 300px;
+  height: 134px;
+  margin: auto;
+}
+
+
+
+.TituloPou {
+  font-family: "Nunito Sans", sans-serif;
+  width: 300px;
+  height: 60px;
+  font-weight: 600;
+  color: #2B6130;
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-align:center;
+  margin: 20px 0 0 0;
+}
+
+@media screen and (max-width: 320px) {
+}
+
+@media screen and (max-width: 800px) {
+}
+
+
+.Poucherete {
+  display: grid;
+  width: 350px;
+  text-align: center;
+  justify-items: center;
+  justify-self: center;
+  background-color: white;
+  border-radius: 10px 20px 30px 40px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.fa-handshake:before{
+  color: #2B6130;
+}
+.fa-paper-plane:before{
+  color: #2B6130;
+}
+.fa-eye:before{
+  color: #2B6130;
+}
+.fa-recycle:before{
+  color: #2B6130;
+}
+.fa-droplet:before, .fa-tint:before{
+  color: #2B6130;
+}
+.fa-exclamation-triangle:before, .fa-triangle-exclamation:before, .fa-warning:before{
+  color: #2B6130;
+}
+.fa-hard-hat:before, .fa-hat-hard:before, .fa-helmet-safety:before{
+  color: #2B6130;
+}
+.fa-bar-chart:before, .fa-chart-bar:before{
+  color: #2B6130;
+}
+.fa-tree:before{
+  color: #2B6130;
+}
+.fa-magnifying-glass:before, .fa-search:before{
+  color: #2B6130;
+}
+.fa-gavel:before, .fa-legal:before{
+  color: #2B6130;
+}
+.fa-clipboard-check:before{
+  color: #2B6130;
+}
+
+.Pouimg{
+  margin: 20px 0 0 0;
+}
